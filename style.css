@@ -9,7 +9,7 @@
   background-image: linear-gradient(
     to bottom,
     rgba(0, 0, 150, 0.3),
-    rgba(0, 150, 0, 0.4)
+    rgba(0, 150, 0, 0.2)
   );
   position: relative;
 }
@@ -99,27 +99,106 @@ nav .right_nav ul li:first-child {
 }
 
 .hero_section .hero_right img {
-  border-bottom-left-radius: 2px;
-  border-bottom-right-radius: 2px;
+  border-radius: 50%;
+  padding-top: 4.5rem;
 }
 
 .carousel {
-  background: red;
   width: 100%;
   height: 25%;
+  display: flex;
+  align-items: center;
+}
+
+.carousel .carousel_inner {
+  width: 100%;
+  height: 80%;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  display: flex;
+  gap: 1.5rem;
+  overflow: hidden;
+  position: relative;
+}
+.carousel .item {
+  height: 100%;
+  flex: 0 0 10%;
+  padding: 0 1.5rem;
+}
+
+.carousel .item1 {
+}
+.carousel .item1 svg {
+  width: 100%;
+  height: 100%;
+}
+.carousel .item2 {
+}
+
+.carousel .item2 svg {
+  width: 100%;
+  height: 100%;
+}
+.carousel .item3 {
+}
+.carousel .item3 svg {
+  width: 100%;
+  height: 100%;
+}
+.carousel .item4 {
+}
+.carousel .item4 svg {
+  width: 100%;
+  height: 100%;
+}
+.carousel .item5 {
+}
+.carousel .item5 svg {
+  width: 100%;
+  height: 100%;
+}
+.carousel .item6 {
+}
+.carousel .item6 svg {
+  width: 100%;
+  height: 100%;
+}
+.carousel .item7 {
+}
+
+.carousel .item7 svg {
+  width: 100%;
+  height: 100%;
+}
+.carousel .item8 {
+}
+.carousel .item8 svg {
+  width: 100%;
+  height: 100%;
+}
+.carousel .item9 {
+}
+.carousel .item9 svg {
+  width: 100%;
+  height: 100%;
+}
+.carousel .item10 {
+}
+.carousel .item10 svg {
+  width: 100%;
+  height: 100%;
 }
 footer {
   /* position: absolute;
   bottom: 0; */
   height: 5%;
   width: 100%;
-  background: #0072f5;
+  background: #123456;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1rem;
-  font-weight: 500;
   letter-spacing: 1px;
   font-family: sans-serif;
 }
