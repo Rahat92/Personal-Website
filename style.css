@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 150, 0.3),
+    rgba(0, 150, 0, 0.4)
+  );
+  position: relative;
+}
+nav {
+  width: 100%;
+  height: 10%;
+  font-family: sans-serif;
+  font-size: 16px;
+  display: flex;
+  font-weight: 500;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding: 0 5rem;
+  color: #0072f5;
+}
+
+/* Navigation left part */
+nav .left_nav {
+  height: 100%;
+  display: flex;
+  flex: 0 0 45%;
+  align-items: center;
+  background: transparent;
+}
+
+nav .left_nav .logo {
+  color: #11181c;
+  font-weight: 700;
+  text-transform: none;
+  background: linear-gradient(to right, #000000 -50%, #0072f5 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
+}
+
+/* Navigation right part */
+
+nav .right_nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex: 0 0 55%;
+}
+nav .right_nav ul {
+  list-style: none;
+  display: flex;
+  flex: 0 0 100%;
+}
+
+nav .right_nav ul li {
+  margin-left: 2rem;
+}
+
+nav .right_nav ul li:first-child {
+  margin-right: auto;
+}
+
+/* Hero area */
+
+.hero_section {
+  display: flex;
+  height: 60%;
+  padding: 0 5rem;
+  overflow: hidden;
+  align-items: center;
+}
+
+.hero_section .hero_left {
+  flex: 0 0 50%;
+  display: flex;
+  line-height: 2.5;
+  letter-spacing: 6px;
+  flex-direction: column;
+  justify-content: center;
+  /* background: #0072f5; */
+}
+
+.hero_section .hero_left h2 {
+  margin-bottom: 5px;
+  line-height: 1.2;
+}
+.hero_section .hero_left p {
+  letter-spacing: 1px;
+}
+
+.hero_section .hero_right {
+  flex: 0 0 50%;
+}
+
+.hero_section .hero_right img {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.carousel {
+  background: red;
+  width: 100%;
+  height: 25%;
+}
+footer {
+  /* position: absolute;
+  bottom: 0; */
+  height: 5%;
+  width: 100%;
+  background: #0072f5;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
